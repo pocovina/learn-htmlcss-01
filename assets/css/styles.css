@@ -158,10 +158,21 @@ a {
 }
 
 .clients .images {
-  margin-top: 96px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.clients .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0px 42px;
+  border-radius: 12px;
+}
+.clients .images a:hover{
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ====== Guides ====== */
@@ -600,6 +611,11 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 3px;
+  background: #F9F9F9;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .social-link:hover {
